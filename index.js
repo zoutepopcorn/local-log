@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { exec } from 'node:child_process';
 const OUT = exec('docker logs -f --tail=100 localstack-main')
 OUT.stdout.on('data', (data) => {
