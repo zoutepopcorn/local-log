@@ -1,10 +1,10 @@
 {
   "name": "",
   "version": "1.0.0",
-  "description": "",
+  "description": "localstack show logs",
   "main": "index.js",
   "type": "module",
-  "license": "AGPL-version-3.0",
+  "license": "MIT",
   "private": false,
   "engines": {
     "node": ">= 14.0.0",
@@ -34,5 +34,8 @@
   },
   "devDependencies": {
 
+  },
+  "bin": {
+    "locda": "./index.js"
   }
 }
