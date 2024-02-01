@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "local-log",
   "version": "1.0.0",
   "description": "localstack show logs",
   "main": "index.js",
@@ -36,6 +36,6 @@
 
   },
   "bin": {
-    "locda": "./index.js"
+    "local-log": "./index.js"
   }
 }
