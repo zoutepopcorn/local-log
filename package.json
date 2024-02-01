@@ -1,6 +1,6 @@
 {
   "name": "local-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "localstack show logs",
   "main": "index.js",
   "type": "module",
